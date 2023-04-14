@@ -1,0 +1,103 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set font size and color */
+body {
+    font-family: Satoshi, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+/* Set container max width and center align */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Set header styles */
+.header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.header a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.header a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Set image styles */
+.icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+/* Set section styles */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.box {
+  flex-basis: 300px;
+  margin: 2em;
+}
+.box p {
+  text-align: justify;
+  margin-top: .2em;
+}
+
+.linkUrl {
+    margin-top: 1em;
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.linkUrl:hover {
+  color: black;
+  background-color: white;
+}
+.footer {
+  margin-top: 4em;
+  text-align: center;
+}
+.footer p {
+  font-weight: bold;
+  
+}
